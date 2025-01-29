@@ -37,7 +37,10 @@ public class Game{
     public void addPlayer(Socket cs,int id){
         Player player=new Player(cs,id,model.getAllStrela().get(id));
         players.add(player);
-        service.submit(player);
+    }
+
+    private void StartPlayerThreads(){
+        players.forEach((service::submit));
     }
 
     private void CreateGameElements(){
@@ -114,6 +117,7 @@ public class Game{
     }
 
     public void GameLoop(){
+        StartPlayerThreads();
         game_info.setGame_running(true);
         while(true){
             if(PlayerUtil.allPlayersReady(players)&& PlayerUtil.allPlayersHaveName(players))

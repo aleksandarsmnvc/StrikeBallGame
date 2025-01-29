@@ -4,38 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0241daa1-fa46-4603-a289-39d39def42cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/constants/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/drawing/Drawing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/dto/ClientMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/dto/ServerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/entities/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/entities/Strela.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/enums/MessageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/forms/ClientFrame.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/forms/ClientFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/forms/VModel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/forms/VModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/logic/BGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/logic/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/logic/GameInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/logic/GameUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/model/BModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/model/IObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/player/PlayerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/player/PlayerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/player/PlayerUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aleksandar_simeunovic/server/MainServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aleksandar-simeunovic/AppTest.java" afterDir="false" />
+    <list default="true" id="0241daa1-fa46-4603-a289-39d39def42cb" name="Changes" comment="Code refactored">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aleksandar-simeunovic/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aleksandar-simeunovic/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +88,20 @@
       <option name="presentableId" value="Default" />
       <updated>1738011048650</updated>
     </task>
+    <task id="LOCAL-00001" summary="Code refactored">
+      <option name="closed" value="true" />
+      <created>1738182728333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738182728333</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Code refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code refactored" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -39,6 +39,7 @@ public class Player implements Runnable {
     }
 
     public void run(){
+
         try {
             DataInputStream dis=client.getDis();
 
