@@ -48,8 +48,8 @@ public class Game{
 
         for(int i=0;i<n;i++)
         {
-            int starting_y=(Constants.DEFAULT_PLAYING_WINDOW_HEIGHT-Constants.TOP_MARGIN_OFFSET
-                    -Constants.BOTTOM_MARGIN_OFFSET)/(n-1);
+            int starting_y=((Constants.DEFAULT_PLAYING_WINDOW_HEIGHT-Constants.TOP_MARGIN_OFFSET
+                    -Constants.BOTTOM_MARGIN_OFFSET)*(i+1))/(n+1);
             model.addStrela(Strela.builder()
                             .starting_x(Constants.DEFAULT_START_X_STRELA)
                             .starting_y(starting_y)

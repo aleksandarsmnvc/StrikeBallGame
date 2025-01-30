@@ -106,12 +106,12 @@ public class ClientFrame extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel1.setText("Points:");
 
-        jLabel2.setText("jLabel2");
+        jLabel2.setText("0");
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel3.setText("Vistrelov:");
+        jLabel3.setText("Attempts:");
 
-        jLabel4.setText("jLabel4");
+        jLabel4.setText("0");
 
         jLabel5.setText("Player name");
 
@@ -227,6 +227,7 @@ public class ClientFrame extends javax.swing.JFrame {
                         ServerResponse response = mapper.readValue(s,ServerResponse.class);
                         m.setAllBall(response.allBall);
                         m.setAllStrela(response.allStrela);
+                        m.ref();
                         this.jLabel2.setText(Integer.toString(response.points));
                         this.jLabel4.setText(Integer.toString(response.attempts));
                         game_running=response.game_running;
